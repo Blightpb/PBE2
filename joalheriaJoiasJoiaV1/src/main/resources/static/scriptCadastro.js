@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 
 			if (response.ok) {
-				alert("Cliente cadastrado");
+				window.location.href = "enviado.html";
 			} else {
 				alert("Falha ao cadastrar cliente");
 			}
