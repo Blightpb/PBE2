@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-	const form = document.getElementById("cadastroEnderecoForm");  !!!!!
+	const form = document.getElementById("cadastroEnderecoForm"); 
 
 	form.addEventListener("submit", async (event) => {
 		event.preventDefault();
